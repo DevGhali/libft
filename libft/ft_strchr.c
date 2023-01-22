@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gabd-el- <gabd-el-@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: gabd-el- <gabd-el-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/18 15:03:06 by gabd-el-          #+#    #+#             */
-/*   Updated: 2023/01/15 20:55:52 by gabd-el-         ###   ########.fr       */
+/*   Updated: 2023/01/22 16:55:56 by gabd-el-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strchr(const char *s, int c)
 			return ((char *)s);
 		s++;
 	}
-	if (c == 0)
+	if ((unsigned char)c == '\0')
 		return ((char *)s);
 	return (0);
 }
