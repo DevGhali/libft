@@ -6,7 +6,7 @@
 #    By: gabd-el- <gabd-el-@student.42wolfsburg.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/25 11:33:25 by gabd-el-          #+#    #+#              #
-#    Updated: 2023/01/15 20:56:21 by gabd-el-         ###   ########.fr        #
+#    Updated: 2023/02/01 02:06:17 by gabd-el-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -44,7 +44,7 @@ bonus: $(OBJSB)
 all: $(NAME)
 
 clean:
-	$(RM) $(OBJS) $(SRCS_BONUS:.c=.o)
+	$(RM) $(OBJS) $(OBJSB)
 
 fclean: clean
 	$(RM) $(NAME)
